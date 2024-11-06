@@ -4,7 +4,7 @@
 
 int main(int argc, char *argv[]) {
     // Default values for page size and number of pages
-    int PAGESIZE = 4;  // Size of one page in bytes
+    int PAGESIZE = 4096;  // Size of one page in bytes
     int NUMPAGES = 4;  // Default number of pages
     long int iterations = 1000000; // Adjust this for how long you want to run the test
 
